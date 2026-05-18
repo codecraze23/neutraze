@@ -59,7 +59,7 @@ const Login: React.FC<LoginProps> = ({ theme, onLogin }) => {
               <input 
                 required
                 type="email"
-                placeholder="youremail@gmail.com"
+                placeholder="Adminemail@neutraze.com"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 className={`w-full p-4 rounded-xl bg-black/10 border border-white/10 ${activeTheme.text} outline-none focus:ring-2 focus:ring-blue-400 transition-all`}
